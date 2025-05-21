@@ -2,7 +2,6 @@ package problem_set8_jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 //Write a JDBC program to:
@@ -21,10 +20,10 @@ public class JdbcStatementInsert {
 			Connection conn = DriverManager.getConnection(url,username,password);
 			Statement stmt = conn.createStatement();
 			
-			stmt.execute("CREATE TABLE student(id INT PRIMARY KEY, name VARCHAR(255));");
-			stmt.executeUpdate("INSERT INTO student VALUES(1,'JEEV');");
-			stmt.executeUpdate("INSERT INTO student VALUES(2,'JACOB');");
-			stmt.executeUpdate("INSERT INTO student VALUES(3,'GEORGE');");
+			stmt.execute("CREATE TABLE IF NOT EXISTS student(id INT PRIMARY KEY, name VARCHAR(255));");
+			stmt.executeUpdate("INSERT IGNORE INTO student VALUES(1,'JEEV');");
+			stmt.executeUpdate("INSERT IGNORE INTO student VALUES(2,'JACOB');");
+			stmt.executeUpdate("INSERT IGNORE INTO student VALUES(3,'GEORGE');");
             System.out.println("Inserted 3 records successfully.");
 //            ResultSet rs = stmt.executeQuery("SELECT * FROM student;");
 //            System.out.println("Id\tName");
