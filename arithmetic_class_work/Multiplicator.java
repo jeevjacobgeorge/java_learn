@@ -1,4 +1,4 @@
-package assignments;
+package arithmetic_class_work;
 
 public class Multiplicator extends Arithmatics {
 

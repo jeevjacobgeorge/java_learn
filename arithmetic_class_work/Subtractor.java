@@ -1,4 +1,4 @@
-package assignments;
+package arithmetic_class_work;
 
 public class Subtractor extends Arithmatics {
 

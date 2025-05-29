@@ -1,4 +1,4 @@
-package assignments;
+package arithmetic_class_work;
 
 public interface ResultFormatter {
 	char UNDERSCORE = '_';

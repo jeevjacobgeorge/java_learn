@@ -1,4 +1,4 @@
-package assignments;
+package arithmetic_class_work;
 
 public class TestArithmatics {
 	public static void main(String args[]) {

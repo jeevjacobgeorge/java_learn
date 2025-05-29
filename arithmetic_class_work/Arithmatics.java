@@ -1,4 +1,4 @@
-package assignments;
+package arithmetic_class_work;
 
 public abstract class Arithmatics implements ResultFormatter{
 	public int j =3; //here
