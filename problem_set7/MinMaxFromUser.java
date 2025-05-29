@@ -20,6 +20,7 @@ public class MinMaxFromUser {
 		System.out.println("The array:"+arr);
 		System.out.println("The Largest: "+Collections.max(arr));
 		System.out.println("The Smallest: "+Collections.min(arr));
+		sc.close();
 	}
 
 }

@@ -16,6 +16,7 @@ public class switch_example {
 		default:
 			System.out.println("Invalid");
 		}
+		sc.close();
 	}
 
 }
