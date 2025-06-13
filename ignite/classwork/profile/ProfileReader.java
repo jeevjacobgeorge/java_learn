@@ -1,4 +1,4 @@
-package profile_class_work;
+package ignite.classwork.profile;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -22,5 +22,4 @@ public class ProfileReader {
 		return sb.toString();
 		
 	}
-
 }

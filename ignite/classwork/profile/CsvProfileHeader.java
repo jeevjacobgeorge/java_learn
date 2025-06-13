@@ -1,4 +1,4 @@
-package profile_class_work;
+package ignite.classwork.profile;
 
 public interface CsvProfileHeader {
 	int ID = 0;

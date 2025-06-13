@@ -1,4 +1,4 @@
-package profile_class_work;
+package ignite.classwork.profile;
 
 public class Profile {
     private  int id;
