@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ProfileReader {
-	public static String read(String path) {
+	public String read(String path) {
 		StringBuilder sb = new StringBuilder();
 		try(BufferedReader csv = new BufferedReader(new FileReader(path))) {
 			String row ;
